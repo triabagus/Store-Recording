@@ -21,8 +21,13 @@ BROWSER can set for example: chrome, mozilla, etc.
 ```bash
 npm install --save bootstrap
 npm install --save react-router-dom
+npm install --save styled-components
 ```
 
+# Helper
+[Styled Components](https://styled-components.com/)
+
+# React JS Default
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
