@@ -12,4 +12,8 @@ transition:all 0.3s ease-in-out !important;
 &:hover {
     color:#ffffff;
 }
+
+&:focus {
+    outline:0 !important;
+}
 `;

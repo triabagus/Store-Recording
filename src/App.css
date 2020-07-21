@@ -20,7 +20,7 @@ body {
 }
 
 .text-blue{
-  color:var(--mainBlue);
+  color:var(--lightBlue);
 }
 
 .text-bright{
