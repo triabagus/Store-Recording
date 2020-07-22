@@ -26,7 +26,13 @@ class Details extends Component {
                                     </h2>
                                     {/* buttons */}
                                     <div>
-                                        <ButtonContainers disabled={inCart?true:false}>
+                                        <ButtonContainers
+                                            cart
+                                            disabled={inCart ? true : false}
+                                            onClick={() => { 
+                                                value.addToCart(id)
+                                            }}
+                                        >
                                             <span className="cart text-capitalize">
                                                 {inCart ? "inCart" : <div><i className="fas fa-cart-plus" /> add to cart</div>}
                                             </span>

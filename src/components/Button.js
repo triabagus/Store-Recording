@@ -19,6 +19,7 @@ transition:all 0.3s ease-in-out !important;
 `;
 
 export const ButtonContainers = styled.button`
+// border-color:${props => props.cart ? "var(--mainYellow)": "var(--mainBlue)"};
 border:0;
 width: 160px;
 height: 60px;
