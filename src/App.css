@@ -1,16 +1,18 @@
 :root {
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
-  --mainWhite: #f5f5f5;
+  --mainWhite: #f4f5f6;
   --mainDark: #232528;
   --mainYellow: #ffa400;
   --textWhite:rgba(255,255,255,.5);
+  --textDetail:#666666;
+  --textPurple:#6f6cde;
 }
 
 body {
   font-family: 'Roboto', sans-serif !important;
   background: var(--mainWhite) !important;
-  color:var(--mainDark) !important;
+  color:var(--textDetail) !important;
 }
 
 .text-title{
@@ -25,4 +27,16 @@ body {
 
 .text-bright{
   color:var(--lightBlue);
+}
+
+.text-detail{
+  color:var(--textDetail);
+}
+
+.text-purple{
+  color:var(--textPurple);
+}
+
+.text-dark{
+  color:var(--mainDark);
 }

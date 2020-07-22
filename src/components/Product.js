@@ -27,7 +27,7 @@ class Product extends Component {
                         <p className="align-self-center mb-0">
                             {title}
                         </p>
-                        <h5 className="text-blue font-italic mb-0">
+                        <h5 className="text-purple font-italic mb-0">
                             <span className="mr-1">$</span>
                             {price}
                         </h5>
@@ -94,7 +94,7 @@ const ProductWrapper = styled.div`
         bottom:0;
         right:0;
         padding:0.4rem 0.6rem;
-        background:var(--lightBlue);
+        background:var(--textPurple);
         border:none;
         color:var(--mainWhite);
         font-size:1rem;
