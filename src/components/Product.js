@@ -109,6 +109,10 @@ const ProductWrapper = styled.div`
         border-radius:5rem 0 0 0;
         transform:translate(100%, 100%);
         transition:all 0.5s linear;
+
+        &:focus{
+            outline:0!important;
+        }
     }
 
     .cart-btn i{
