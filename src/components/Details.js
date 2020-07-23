@@ -9,7 +9,7 @@ class Details extends Component {
                 {value => { 
                     const { id, company, img, info, price, title, inCart } = value.detailProduct;
                     return (
-                        <div className="container py-3">
+                        <div className="container py-5">
                             {/* product info */}
                             <div className="row">
                                 <div className="col-10 mx-auto col-md-6 my-3">
