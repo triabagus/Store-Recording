@@ -30,7 +30,8 @@ class Details extends Component {
                                             cart
                                             disabled={inCart ? true : false}
                                             onClick={() => { 
-                                                value.addToCart(id)
+                                                value.addToCart(id);
+                                                value.openModal(id);
                                             }}
                                         >
                                             <span className="cart text-capitalize">
