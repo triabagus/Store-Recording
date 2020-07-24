@@ -7,6 +7,7 @@
   --textWhite:rgba(255,255,255,.5);
   --textDetail:#666666;
   --textPurple:#6f6cde;
+  --colorDark:#343a40;
 }
 
 body {
@@ -38,5 +39,26 @@ body {
 }
 
 .text-dark{
-  color:var(--mainDark);
+  color:var(--colorDark);
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size:0.8rem !important;
+  font-weight:bold!important;
+  color:var(--colorDark);
+  border-radius:5px !important;
+  border:0.1rem solid var(--colorDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--colorDark)!important;
+  color:var(--mainWhite)!important;
+}
+
+.cart-icon-remove{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--textPurple);
 }
