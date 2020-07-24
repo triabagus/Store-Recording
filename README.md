@@ -25,8 +25,8 @@ npm install --save styled-components
 ```
 
 # Helper
-[Styled Components](https://styled-components.com/)
-[Illustrasion Design : unDraw](https://undraw.co/search)
+- [Styled Components](https://styled-components.com/)
+- [Illustrasion Design : unDraw](https://undraw.co/search)
 
 # React JS Default
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
