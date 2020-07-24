@@ -42,6 +42,10 @@ npm install --save react-paypal-express-checkout
 - [If you error this is solution first deploy because CI build configuration](https://community.netlify.com/t/new-ci-true-build-configuration-treating-warnings-as-errors-because-process-env-ci-true/14434)
 - Create Env variable in Build & Deploy Setting, make sure the env variable is the same as the paypal Client ID.
 
+# Reference
+- [Youtube: FreeCodecamp](https://www.youtube.com/watch?v=wPQ1-33teR4)
+- [Github: john-smilga](https://github.com/john-smilga/react-phone-e-commerce-project)
+
 # React JS Default
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
