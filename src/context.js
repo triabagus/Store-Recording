@@ -113,8 +113,6 @@ class ProductProvider extends Component {
                 })
             
         }
-
-
     }
 
     removeItem = id => {
